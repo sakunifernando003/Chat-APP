@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ClientController">
+   <children>
+      <TextField fx:id="userName" layoutX="41.0" layoutY="285.0" prefHeight="29.0" prefWidth="292.0" />
+      <TextArea fx:id="chatArea" layoutX="38.0" layoutY="26.0" prefHeight="227.0" prefWidth="515.0" />
+      <TextField fx:id="msg" layoutX="41.0" layoutY="332.0" prefHeight="29.0" prefWidth="292.0" />
+      <Button fx:id="joinBtn" layoutX="360.0" layoutY="285.0" mnemonicParsing="false" onAction="#joinBtnOnAction" prefHeight="29.0" prefWidth="90.0" text="join" />
+      <Button fx:id="sendBtn" layoutX="360.0" layoutY="334.0" mnemonicParsing="false" onAction="#sentBtnOnAction" prefHeight="19.0" prefWidth="90.0" text="send" />
+      <Button layoutX="470.0" layoutY="334.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="39.0" text="+" />
+   </children>
+</AnchorPane>
